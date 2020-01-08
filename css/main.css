@@ -14,6 +14,11 @@ body{
 
 /* main navbar css styles */
 
+.main-nav-bar .nav-btn{
+  height:5vh;
+  background:black;
+}
+
 .profile-icon{
   display:none;
 }
@@ -28,14 +33,16 @@ body{
   height:100%;
 }
 
-.main-nav-bar li{
-  height:25vh;
+#nav_li{
+  height:23.75vh;
   background:green;
   border:solid 1px black;
-  display:none;
+  visibility:hidden;
 }
 
-.nav-btn{
-  display:block !important; 
+.main-nav-bar .show{
+  visibility:visible;
 }
+
+
 /* end */

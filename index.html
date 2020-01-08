@@ -6,6 +6,7 @@
   <meta charset = "UTF-8">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js"></script>
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -14,15 +15,15 @@
 <div class="header" id="header">
   <div class="main-nav-bar">
     <nav class="navbar">
+      <div class="nav-btn">
+        <button class="main-nav-btn"><i class="fas fa-bars"></i></button>
+      </div>
       <ul class="main-nav-ul">
-        <div class="nav-btn">
-          <li><button class="main-nav-btn"><i class="fas fa-bars"></i></button></li>
-        </div>
         <img src="#profil-icon" alt="icon here" class="profile-icon">
-        <li class="li-1"><a href="#" class="link-item-main">Home</a></li>
-        <li class="li-2"><a href="#" class="link-item-main">About Me</a></li>
-        <li class="li-3"><a href="#" class="link-item-main">Portfolio</a></li>
-        <li class="li-4"><a href="#" class="link-item-main">Contact Me</a></li>
+        <li id="nav_li" class="show"><a href="#" class="link-item-main">Home</a></li>
+        <li id="nav_li" class="show"><a href="#" class="link-item-main">About Me</a></li>
+        <li id="nav_li" class="show"><a href="#" class="link-item-main">Portfolio</a></li>
+        <li id="nav_li" class="show"><a href="#" class="link-item-main">Contact Me</a></li>
       </ul>
     </nav>
   </div>
