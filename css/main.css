@@ -19,6 +19,13 @@ body{
   background:black;
 }
 
+.nav-btn button{
+  height:5vh;
+  width:10%;
+  border:none;
+
+}
+
 .profile-icon{
   display:none;
 }
@@ -33,10 +40,13 @@ body{
   height:100%;
 }
 
-#nav_li{
+.nav_li{
   height:23.75vh;
   background:green;
   border:solid 1px black;
+}
+
+.hide{
   visibility:hidden;
 }
 
