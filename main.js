@@ -1,12 +1,12 @@
 function changeClass(){
   //grab current class of th eli element
-  var showHideElement = document.getElementByClassName("nav_li");
+  var showHideElement = document.getElementById("main-nav-ul");
   if(showHideElement.classList.contains("show")){
-    document.getElementByClassName("nav_li").classList.remove("show");
-    document.getElementByClassName("nav_li").classList.add("hide");
+    document.getElementById("main-nav-ul").classList.remove("show");
+    document.getElementById("main-nav-ul").classList.add("hide");
   }else{
-    document.getElementByClassName("nav_li").classList.add("show");
-    document.getElementByClassName("nav_li").classList.remove("hide");
+    document.getElementById("main-nav-ul").classList.add("show");
+    document.getElementById("main-nav-ul").classList.remove("hide");
   };
   console.log("test");
 };
