@@ -16,7 +16,7 @@ body{
 
 .main-nav-bar .nav-btn{
   height:5vh;
-  background:black;
+  background:#40434E;
 }
 
 .nav-btn button{
@@ -42,8 +42,16 @@ body{
 
 .nav_li{
   height:23.75vh;
-  background:green;
-  border:solid 1px black;
+  background:#702632;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align:center;
+  line-height:23.75vh;
+}
+
+.header a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration:none;
+  color:#080705;
 }
 
 .hide{

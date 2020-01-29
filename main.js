@@ -1,5 +1,5 @@
 function changeClass(){
-  //grab current class of th eli element
+  //grab current class of th ul element
   var showHideElement = document.getElementById("main-nav-ul");
   if(showHideElement.classList.contains("show")){
     document.getElementById("main-nav-ul").classList.remove("show");
