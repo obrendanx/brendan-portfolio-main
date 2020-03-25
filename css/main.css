@@ -1,3 +1,12 @@
+/*
+Colors:
+smokey black: 08090A
+quick silver: A7A2A9
+white smoke: F4F7F5
+davy's grey: 575A5E
+raisin black: 222823
+purple: B7ADCF
+*/
 *{
   padding:0;
   margin:0;
@@ -16,14 +25,14 @@ body{
 
 .main-nav-bar .nav-btn{
   height:5vh;
-  background:#40434E;
+  background:#F4F7F5;
 }
 
 .nav-btn button{
   height:5vh;
   width:10%;
   border:none;
-
+  background:#F4F7F5;
 }
 
 .profile-icon{
@@ -33,7 +42,7 @@ body{
 .header{
   height:100vh;
   width:100vw;
-  background:red;
+  background:#B7ADCF;
 }
 
 .main-nav-bar{
@@ -42,7 +51,7 @@ body{
 
 .nav_li{
   height:23.75vh;
-  background:#702632;
+  background:#F4F7F5;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align:center;
   line-height:23.75vh;
@@ -51,7 +60,7 @@ body{
 .header a{
   font-family: 'Open Sans Condensed', sans-serif;
   text-decoration:none;
-  color:#080705;
+  color:#08090A;
 }
 
 .hide{
@@ -62,5 +71,28 @@ body{
   visibility:visible;
 }
 
+/* header info sstyles */
+.header-info{
+  text-align:center;
+  height:45vh;
+  width:100vw;
+  position:absolute;
+  top:50%;
+}
+
+.header-info h1, h3{
+  padding:10px;
+}
+
+.header-info h1{
+  font-size:3em;
+  color:#F4F7F5;
+}
+
+.header-info h3{
+  font-size:2em;
+  font-weight:lighter;
+  color:#575A5E;
+}
 
 /* end */
