@@ -96,3 +96,47 @@ body{
 }
 
 /* end */
+
+/*main section styles*/
+
+.portfolio-section{
+  height:200vh;
+  width:100vw;
+  background:red;
+}
+
+.section-one, .section-two{
+  height:50vh;
+  background:green;
+}
+.img-1{
+  display:block;
+  height:85%;
+  width:100%;
+  background:pink;
+}
+.img-2{
+  display:block;
+  height:85%;
+  width:100%;
+  background:pink;
+}
+.section-three, .section-four{
+  height:47vh;
+  background:purple;
+}
+.show-more-port{
+  height:6vh;
+  background:yellow;
+}
+
+.sections h3{
+  text-align:center;
+  font-size:1em;
+}
+.sections h4{
+  font-size:0.7em;
+  margin-left:1%;
+}
+
+/*end*/
