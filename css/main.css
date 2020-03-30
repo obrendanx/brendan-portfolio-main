@@ -107,36 +107,60 @@ body{
 
 .section-one, .section-two{
   height:50vh;
-  background:green;
+  background:#F4F7F5;
 }
 .img-1{
   display:block;
   height:85%;
   width:100%;
-  background:pink;
+  background:#575A5E;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .img-2{
   display:block;
   height:85%;
   width:100%;
-  background:pink;
+  background:#575A5E;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .section-three, .section-four{
   height:47vh;
-  background:purple;
+  background:#F4F7F5;
 }
 .show-more-port{
   height:6vh;
-  background:yellow;
+  background:#A7A2A9;
+  text-align:center;
 }
 
 .sections h3{
   text-align:center;
   font-size:1em;
+  color:#08090A;
+  text-transform:uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 .sections h4{
-  font-size:0.7em;
-  margin-left:1%;
+  font-size:0.5em;
+  margin-left:2%;
+  color:#A7A2A9;
 }
 
+.show-more-port a{
+  line-height:6vh;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#F4F7F5;
+  transition:1s;
+}
+.show-more-port a:hover{
+  color:#08090A;
+}
+
+.header-a{
+  text-decoration:none;
+}
+.header-a:hover{
+  text-decoration:underline;
+}
 /*end*/
