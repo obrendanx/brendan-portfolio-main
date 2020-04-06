@@ -25,14 +25,14 @@ body{
 
 .main-nav-bar .nav-btn{
   height:5vh;
-  background:#F4F7F5;
+  background:#FFFFFA;
 }
 
 .nav-btn button{
   height:5vh;
   width:10%;
   border:none;
-  background:#F4F7F5;
+  background:#FFFFFA;
 }
 
 .profile-icon{
@@ -42,7 +42,7 @@ body{
 .header{
   height:100vh;
   width:100vw;
-  background:#B7ADCF;
+  background:#0D5C63;
 }
 
 .main-nav-bar{
@@ -51,7 +51,7 @@ body{
 
 .nav_li{
   height:23.75vh;
-  background:#F4F7F5;
+  background:#78CDD7;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align:center;
   line-height:23.75vh;
@@ -60,7 +60,7 @@ body{
 .header a{
   font-family: 'Open Sans Condensed', sans-serif;
   text-decoration:none;
-  color:#08090A;
+  color:#FFFFFA;
 }
 
 .hide{
@@ -77,7 +77,7 @@ body{
   height:45vh;
   width:100vw;
   position:absolute;
-  top:50%;
+  top:40%;
 }
 
 .header-info h1, h3{
@@ -85,14 +85,14 @@ body{
 }
 
 .header-info h1{
-  font-size:3em;
-  color:#F4F7F5;
+  font-size:15vw;
+  color:#FFFFFA;
 }
 
 .header-info h3{
-  font-size:2em;
+  font-size:3vw;
   font-weight:lighter;
-  color:#575A5E;
+  color:#78CDD7;
 }
 
 /* end */
@@ -107,34 +107,34 @@ body{
 
 .section-one, .section-two{
   height:50vh;
-  background:#F4F7F5;
+  background:#247B7B;
 }
 .img-1{
   display:block;
   height:90%;
   width:100%;
-  background:#575A5E;
+  background:#0D5C63;
 }
 .img-2{
   display:block;
   height:90%;
   width:100%;
-  background:#575A5E;
+  background:#0D5C63;
 }
 .section-three, .section-four{
   height:47vh;
-  background:#F4F7F5;
+  background:#247B7B;
 }
 .show-more-port{
   height:6vh;
-  background:#08090A;
+  background:#44A1A0;
   text-align:center;
 }
 
 .sections h3{
   text-align:center;
   font-size:1em;
-  color:#08090A;
+  color:#FFFFFA;
   text-transform:uppercase;
   font-family: 'Montserrat', sans-serif;
 }
@@ -143,7 +143,7 @@ body{
   line-height:6vh;
   text-decoration:none;
   text-transform:uppercase;
-  color:#F4F7F5;
+  color:#FFFFFA;
   transition:1s;
 }
 .show-more-port a:hover{
@@ -167,9 +167,10 @@ body{
 
 .footer-info{
   height:45vh;
-  background:#575A5E;
+  background:#FFFFFA;
   text-align:center;
-  color:#F4F7F5;
+  color:#44A1A0;
+  padding:50% 0;
 }
 
 .footer-info h2{
@@ -182,7 +183,7 @@ body{
 
 .footer-links{
   height:50vh;
-  background:#575A5E;
+  background:#FFFFFA;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -191,7 +192,25 @@ body{
   height:5vh;
   background:#08090A;
   text-align:center;
-  color:#F4F7F5;
+  color:#78CDD7;
   font-size:0.5em;
+}
+
+.main-footer hr{
+  display:block;
+  width:50%;
+  margin:auto;
+}
+
+.footer-links nav{
+  position:relative;
+  display:block;
+  padding:30% 0;
+  width:100%;
+}
+
+.footer-links ul{
+  display:block;
+  margin-bottom:10px;
 }
 /* end */
